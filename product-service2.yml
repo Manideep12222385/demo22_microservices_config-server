@@ -1,10 +1,8 @@
 spring:
   application:
-    name: PRODUCT-SERVICE
-  cloud:
-    config:
-      override-system-properties: false
+    name: PRODUCT-SERVICE2
 server:
   port: 8095
+
 
 
