@@ -1,7 +1,8 @@
 spring:
   application:
-    name: PRODUCT-SERVICE23
+    name: PRODUCT-SERVICE
 server:
   port: 8095
+
 
 
