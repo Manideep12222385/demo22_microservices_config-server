@@ -14,7 +14,7 @@ spring:
     show-sql: true
 
 server:
-  port: 8083
+  port: 8089
 
 eureka:
   client:
@@ -31,4 +31,5 @@ resilience4j:
         failure-rate-threshold: 50
         minimum-number-of-calls: 5
         wait-duration-in-open-state: 10s
+
         sliding-window-size: 10
