@@ -3,6 +3,10 @@ spring:
     name: PRODUCT-SERVICE2
 server:
   port: 8095
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8761/eureka
 
 
 
